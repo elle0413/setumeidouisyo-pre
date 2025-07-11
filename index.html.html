@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>急性硬膜下血腫 説明書</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="popup.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>急性硬膜下血腫に関する説明</h1>
+        <p>
+            この手術は <span class="term" data-term="開頭血腫除去術">開頭血腫除去術</span> を行い、
+            <span class="term" data-term="急性硬膜下血腫">急性硬膜下血腫</span> を除去することを目的としています。
+        </p>
+        <p>
+            手術は <span class="term" data-term="全身麻酔">全身麻酔</span> で行います。
+            術後には <span class="term" data-term="構音障害">構音障害</span> や
+            <span class="term" data-term="構語障害">構語障害</span> が残る可能性があります。
+        </p>
+    </div>
+
+    <!-- ポップアップ用モーダル -->
+    <div id="popup" class="popup" style="display:none;">
+        <div id="popup-content"></div>
+        <button onclick="closePopup()">閉じる</button>
+    </div>
+</body>
+</html>
